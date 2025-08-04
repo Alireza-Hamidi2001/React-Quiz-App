@@ -1,0 +1,50 @@
+.header {
+    width: 100vw;
+    margin-bottom: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+
+    & h1 {
+        font-size: 3.5rem !important;
+        padding-left: 3rem;
+        font-family: "Monoton" !important;
+        font-weight: 400;
+        word-spacing: 8px;
+    }
+
+    &_image {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    &_list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 3rem;
+    }
+
+    &_item {
+        list-style: none;
+        font-size: 1.5rem;
+        align-self: stretch;
+        padding: 1.5rem 2rem;
+        cursor: pointer;
+        transition: all 0.2s;
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+            background-color: #3f3f3f;
+            color: white;
+            border-bottom: 1px solid white;
+        }
+
+    }
+
+    &_link {
+        text-decoration: none;
+        color: white;
+    }
+}

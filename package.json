@@ -9,7 +9,7 @@
         "lint": "eslint .",
         "preview": "vite preview",
         "server": "json-server --watch data/questions.json --port 8000",
-        "deploy": "npm run build && gh-pages -d dist"
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "json-server": "^1.0.0-beta.3",

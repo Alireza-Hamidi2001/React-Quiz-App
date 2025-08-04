@@ -107,7 +107,7 @@ function App() {
 
     useEffect(function () {
         // fetch("http://localhost:8000/questions")
-        fetch("../public/questions.json")
+        fetch(`${import.meta.env.BASE_URL}questions.json`)
             .then((res) => res.json())
             .then((data) => dispatch({ type: "dataReceived", payload: data }))
             .catch((err) => dispatch({ type: "dataFailed", payload: err }));
