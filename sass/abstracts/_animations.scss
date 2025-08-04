@@ -1,0 +1,41 @@
+@keyframes lamp {
+    0% {
+        opacity: 1;
+        box-shadow: 0 0 20px 10px gold;
+    }
+
+    10% {
+        opacity: 0;
+        box-shadow: none;
+    }
+
+    20% {
+        opacity: 1;
+        box-shadow: 0 0 20px 10px gold;
+    }
+
+    30% {
+        opacity: 0;
+        box-shadow: none;
+    }
+
+    50% {
+        opacity: 1;
+        box-shadow: 0 0 20px 10px gold;
+    }
+
+    70% {
+        opacity: 0.2;
+        box-shadow: 0 0 5px 2px gold;
+    }
+
+    90% {
+        opacity: 1;
+        box-shadow: 0 0 20px 10px gold;
+    }
+
+    100% {
+        opacity: 0.8;
+        box-shadow: 0 0 15px 8px gold;
+    }
+}
